@@ -1,0 +1,18 @@
+{
+    "name": "noking50/pagination",
+    "description": "Pagination for model",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "noking50",
+            "email": "noking50@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Noking50\\Pagination\\": "src"
+        }
+    }
+}
