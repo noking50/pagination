@@ -12,7 +12,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Noking50\\Pagination\\": "src"
+            "Noking50\\Pagination\\": "src/Pagination"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Noking50\\Pagination\\PaginationServiceProvider"
+            ],
+            "aliases": {
+                "Sitemap": "Noking50\\Pagination\\Facades\\Pagination"
+            }
         }
     }
 }
