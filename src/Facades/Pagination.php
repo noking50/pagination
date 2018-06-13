@@ -1,13 +1,13 @@
 <?php
 
-namespace Noking50\Pagination;
+namespace Noking50\Pagination\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \App\Classes\Pagination\Pagination
  */
-class PaginationFacade extends Facade {
+class Pagination extends Facade {
 
     /**
      * Get the registered name of the component.

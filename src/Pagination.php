@@ -2,8 +2,8 @@
 
 namespace Noking50\Pagination;
 
-use Illuminate\Routing\Router as Route;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
 
 /**
  * Pagination
