@@ -5,7 +5,7 @@ namespace Noking50\Pagination\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \App\Classes\Pagination\Pagination
+ * @see Noking50\Pagination\Pagination
  */
 class Pagination extends Facade {
 
