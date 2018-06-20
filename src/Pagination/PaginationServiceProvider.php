@@ -13,6 +13,12 @@ class PaginationServiceProvider extends ServiceProvider {
      */
     protected $defer = true;
 
+    public function boot() {
+        $this->publishes([
+            __DIR__ . '/../config/pagination.php' => config_path('pagination.php'),
+        ]);
+    }
+
     /**
      * Register the service provider.
      *
