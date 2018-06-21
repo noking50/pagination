@@ -21,7 +21,7 @@
                 "Noking50\\Pagination\\PaginationServiceProvider"
             ],
             "aliases": {
-                "Sitemap": "Noking50\\Pagination\\Facades\\Pagination"
+                "Pagination": "Noking50\\Pagination\\Facades\\Pagination"
             }
         }
     }
